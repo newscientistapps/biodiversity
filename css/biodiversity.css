@@ -31,7 +31,7 @@ body  {
 
 #header #back {
     position: absolute;
-    right: 2%;
+    right: 20%;
 } 
 
 #map {
@@ -101,8 +101,8 @@ body  {
 #share {
     position: absolute;
     top: 9px;
-    right: 30%;
-    width: 20%;
+    right: 2%;
+    width: 120px;
 } 
 
 @media (max-width:550px) {
@@ -122,6 +122,3 @@ body  {
     left: 5px;
 }
 
-#share {
-	visibility: none;
-}
