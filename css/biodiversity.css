@@ -101,8 +101,8 @@ body  {
 #share {
     position: absolute;
     top: 9px;
-    right: 20%;
-    width: 150px;
+    right: 10%;
+    width: 20%;
 } 
 
 @media (max-width:550px) {
