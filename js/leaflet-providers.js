@@ -123,19 +123,18 @@
 			url: 'http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg',
 			options: {
 				attribution:
-					'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; ' +
-					'Map data {attribution.OpenStreetMap}',
+					'Satellite basemap: <a href="http://www.mapquest.com/">MapQuest</a>',
 				subdomains: '1234'
 			},
 			variants: {
 				OSM: {},
 				Aerial: {
 					url: 'http://oatile{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg',
-					options: {
-						attribution:
-							'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; ' +
-							'Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency'
-					}
+					// options: {
+// 						attribution:
+// 							'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; ' +
+// 							'Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency'
+// 					}
 				}
 			}
 		},
