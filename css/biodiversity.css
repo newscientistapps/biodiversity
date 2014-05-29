@@ -31,7 +31,7 @@ body  {
 
 #header #back {
     position: absolute;
-    right: 20%;
+    right: 2%;
 } 
 
 #map {
@@ -101,7 +101,7 @@ body  {
 #share {
     position: absolute;
     top: 9px;
-    right: 2%;
+    right: 30%;
     width: 20%;
 } 
 
@@ -124,4 +124,5 @@ body  {
 
 #share {
 	width: 0%;
+	height: 0%;
 }
