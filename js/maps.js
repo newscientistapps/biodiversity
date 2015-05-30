@@ -1,11 +1,11 @@
 
-var amphib_all = L.mapbox.tileLayer('newscientist26102012.amphib_all'),
-	amphib_threat = L.mapbox.tileLayer('newscientist26102012.amphib_threat'),
-	birds_all = L.mapbox.tileLayer('newscientist26102012.birds_all'),
-	birds_threat = L.mapbox.tileLayer('newscientist26102012.birds_threat'),
-	mammals_all = L.mapbox.tileLayer('newscientist26102012.mammals_all'),
-	mammals_threat = L.mapbox.tileLayer('newscientist26102012.mammals_threat'),
-	boundaries = L.mapbox.tileLayer('newscientist26102012.boundaries'),
+var amphib_all = L.mapbox.tileLayer('paldhous.amphib_all'),
+	amphib_threat = L.mapbox.tileLayer('paldhous.amphib_threat'),
+	birds_all = L.mapbox.tileLayer('paldhous.birds_all'),
+	birds_threat = L.mapbox.tileLayer('paldhous.birds_threat'),
+	mammals_all = L.mapbox.tileLayer('paldhous.mammals_all'),
+	mammals_threat = L.mapbox.tileLayer('paldhous.mammals_threat'),
+	boundaries = L.mapbox.tileLayer('paldhous.boundaries'),
 	satellite = L.tileLayer.provider('MapQuestOpen.Aerial');
 	
 var map = L.map('map', {
